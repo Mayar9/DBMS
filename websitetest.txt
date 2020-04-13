@@ -1,0 +1,13 @@
+CREATE DATABASE website;
+\c Website
+//////////////////////////////////////////////////////////
+CREATE TABLE customer_info( username text primary key,password text,fName text,lName text,email char(50),phone text);
+//////////////////////////////////////////////////////
+ INSERT INTO customer_info values('mohamed93','123456','Mohamed','Hassan','mohamed93@gmail.com','01011223344');
+ INSERT INTO customer_info  values('mai93','345678','May','Turkey','may93@gmail.com','01011223355');
+
+ 
+
+
+
+
